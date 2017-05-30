@@ -1,0 +1,428 @@
+
+/* START - NAVIGATION */
+
+.cls_nav_row
+{
+    display: flex;
+    background-color:#ffffff;
+    height: 55px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Roboto;
+    color: #2B2F26;
+   
+ }
+
+/* LOGO */
+.cls_logo
+ {
+	margin-top: 8px;
+    margin-left: 8px;
+    content: url('optimized/bent-creek-logo.png');
+    height: 35px;
+    width: 35px;
+    justify-content: space-between;  
+ }
+
+ .cls_nav_row > img_logo
+{
+    height: 50px;
+    width: 50px;
+}
+
+/* NAV-LINKS */
+
+.cls_nav_item
+{
+    padding: 10px;
+    margin: auto;
+}
+
+.cls_link
+{
+    list-style-type: none;
+	display: flex;
+    justify-content: space-between;
+    width: 300px;
+	flex-direction: row;
+    margin :0px 150px 0px 150px;
+    text-decoration-line: underline;
+    
+}
+
+ .cls_nav_item a
+{
+  color: #2B2F26;
+}
+
+.cls_nav_item  a:hover
+{
+    color: #CD5D67;
+}
+
+.cls_nav_item  a:active
+{
+    color: #968772;
+}
+
+
+/* END - NAVIGATION */
+
+
+/* START - HOME PAGE */
+
+.cls_content
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 4em;
+    background: #f2f1e8;
+    padding: 20px;
+ }
+
+.cls_title_1
+{
+    font-family: Lora;
+    font-size: 50px;
+    color: rgb(19,21,17);
+    font-weight: bold;
+}
+
+.cls_title_2
+{
+    font-family: Lora ;
+    font-size: 30px;
+    color: rgb(35,37,32);
+}
+
+
+.cls_img_content
+{
+    display: flex;
+    flex-direction: row;
+    background: #f2f1e8;
+    justify-content: flex-start;
+}
+
+.image-cards
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+    justify-content: flex-start;
+ }
+
+.cls_prod
+{
+  	margin: 7px;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  }
+
+.cls_prodtxt
+{
+    display:inline;
+    background-color: #2b2f26;
+    padding:5px;
+    position: relative;
+	top: 80%;
+	font-family: 'Lora';
+	font-size: 15px;
+	color: rgb(197,199,182);
+	z-index: 1;
+ }
+
+#img_1 {
+	background-image: url('optimized/product-1.jpg');
+	width: 540px;
+    height: 250px;
+}
+
+#img_2 {
+	background-image: url('optimized/product-2.jpg');
+	width: 150px;
+    height: 250px;
+}
+
+#img_3 {
+	background-image: url('optimized/product-3.jpg');
+	width: 150px;
+    height: 250px;
+}
+
+#img_4 {
+    
+	background-image: url('optimized/product-4.jpg');
+	width: 150px;
+    height: 175px;
+}
+
+#img_5 {
+	background-image: url('optimized/product-5.jpg');
+	width: 150px;
+    height: 175px;
+}
+
+#img_6 {
+	background-image: url('optimized/product-6.jpg');
+	width: 375px;
+    height: 175px;
+}
+
+#img_7 {
+	background-image: url('optimized/product-7.jpg');
+	width: 150px;    
+    height: 175px;
+}
+
+/* END - HOME PAGE  */
+
+/* START - ABOUT PAGE */
+
+.cls_about_header
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 4em;
+    background: #f2f1e8;
+    padding: 40px;
+ }
+
+.cls_about_header_1
+{
+    font-family: Lora;
+    font-size: 75px;
+    color: rgb(19,21,17);
+    font-weight: bold;
+}
+
+.cls_about_content_1
+{
+    background-color: #f2f1e8;
+    padding: 20px 175px 10px 175px;
+    line-height: 2.0em;
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: bold;
+    color: #131511;
+}
+
+.cls_birdhouse
+{
+    height: 125px;
+    width: 150px;
+    float: left;
+    padding: 20px;
+}
+
+.cls_inline_a
+{
+    color : #968772;
+}
+
+.cls_inline_a: hover
+{
+    color : #967343;
+}
+
+blockquote
+{
+    border-left: 3px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.cls_divbgimg
+{
+    height: 400px;
+    background-attachment: fixed;
+    background-image: url('optimized/background-3.jpg');
+    background-size: cover;
+}
+
+.cls_bgimg
+{
+    height: 350px;
+    width: 100%;
+}
+
+
+.cls_roomtogrow
+{
+    padding:5px;
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    z-index: 1;
+    top: 120%;
+    left: 35%
+}
+
+.cls_text
+{
+    font-size: 30px;
+    font-style: normal;
+}
+
+.cls_facilities_right
+{
+    float: right;
+    padding: 20px;
+    font-size: 12px;
+    height: 300px;
+    width: 150px;
+    line-height: 1.5em;
+}
+
+.cls_imgfacility
+{
+    height: 130px;
+    width: 150px;
+}
+
+.cls_monthlyplans
+{
+    padding-bottom: 30px;
+}
+
+table
+{
+    width: 75%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td, th
+{
+    vertical-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+tr:nth-child(odd)
+{
+    background-color: rgb(242,234,220);
+}
+
+th
+{
+    background-color:#f2f1e8;
+}
+
+
+/* END - ABOUT PAGE */
+
+/* START - NEWSLETTER */
+
+
+.cls_news_bgimg
+{
+    background-image: url('optimized/background-2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.cls_signup
+{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 30%;
+    left:30%;
+}
+
+.cls_news_h1
+{
+    font-family: Lora;
+    font-size: 30px;
+    text-align: center;
+    color: #131511;
+}
+
+.cls_news_h2
+{
+    font-family: Lora;
+    font-size: 20px;
+    text-align: center;
+    color: #131511;
+}
+
+/* INPUTS */
+.cls_signup_2
+{
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 10px 20px 30px 20px;
+}
+
+label
+{
+    padding-right: 20px;
+}
+
+#nameInput, #emailInput
+{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #968772;
+    text-align: left;
+    font-size: 12px;
+}
+
+#nameInput:focus, #emailInput:focus
+{
+    border-bottom: 1px solid #967343;
+}
+
+/* Submit Button */
+
+.cls_signupButton
+{
+    margin: 20px 150px 0px 200px;
+}
+
+#signupButton
+{
+    background-color: #968772;
+    padding: 10px 20px 10px 20px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #F2F1E8;
+}
+
+#signupButton:hover
+{
+    background-color: #967343;
+    color:#ffffff;
+}
+
+/*END - NEWSLETTER */
+
+
+/* START - FOOTER */
+
+footer {
+    height: 60px;
+	background-color: #2b2f26;
+}
+
+.footer-wrapper {
+	width: 500px;
+    padding: 20px ;
+}
+.site-footer-text {
+	text-align: center;
+	color: rgb(194,197,194);
+	font-family: Lora;
+	font-size: 15px;
+}
+/* END - FOOTER */
