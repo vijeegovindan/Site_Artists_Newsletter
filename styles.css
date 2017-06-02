@@ -24,12 +24,6 @@
     justify-content: space-between;  
  }
 
- .cls_nav_row > img_logo
-{
-    height: 50px;
-    width: 50px;
-}
-
 /* NAV-LINKS */
 
 .cls_nav_item
@@ -76,7 +70,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    line-height: 4em;
+    line-height: 5em;
     background: #f2f1e8;
     padding: 20px;
  }
@@ -84,7 +78,7 @@
 .cls_title_1
 {
     font-family: Lora;
-    font-size: 50px;
+    font-size: 70px;
     color: rgb(19,21,17);
     font-weight: bold;
 }
@@ -92,7 +86,7 @@
 .cls_title_2
 {
     font-family: Lora ;
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(35,37,32);
 }
 
@@ -102,7 +96,7 @@
     display: flex;
     flex-direction: row;
     background: #f2f1e8;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .image-cards
@@ -126,56 +120,63 @@
 {
     display:inline;
     background-color: #2b2f26;
-    padding:5px;
+    padding:7px;
     position: relative;
 	top: 80%;
 	font-family: 'Lora';
-	font-size: 15px;
+	font-size: 20px;
 	color: rgb(197,199,182);
 	z-index: 1;
  }
 
-#img_1 {
+#img_1
+{
 	background-image: url('optimized/product-1.jpg');
-	width: 540px;
-    height: 250px;
+	width: 731px;
+    height: 372px;
 }
 
-#img_2 {
+#img_2 
+{
 	background-image: url('optimized/product-2.jpg');
-	width: 150px;
-    height: 250px;
+	width: 250px;
+    height: 372px;
 }
 
-#img_3 {
+#img_3
+{
 	background-image: url('optimized/product-3.jpg');
-	width: 150px;
-    height: 250px;
+	width: 239px;
+    height: 372px;
 }
 
-#img_4 {
+#img_4
+{
     
 	background-image: url('optimized/product-4.jpg');
-	width: 150px;
-    height: 175px;
+	width: 237px;
+    height: 241px;
 }
 
-#img_5 {
+#img_5
+{
 	background-image: url('optimized/product-5.jpg');
-	width: 150px;
-    height: 175px;
+	width: 240px;
+    height: 241px;
 }
 
-#img_6 {
+#img_6
+{
 	background-image: url('optimized/product-6.jpg');
-	width: 375px;
-    height: 175px;
+	width: 486px;
+    height: 241px;
 }
 
-#img_7 {
+#img_7
+{
 	background-image: url('optimized/product-7.jpg');
-	width: 150px;    
-    height: 175px;
+	width: 234px;    
+    height: 241px;
 }
 
 /* END - HOME PAGE  */
