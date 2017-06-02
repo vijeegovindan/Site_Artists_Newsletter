@@ -1,82 +1,58 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
 <head>
-  <meta charset="utf-8">
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-  <title>Bent Creek Ceramics - Newsletter</title>
-  <style>
-        body
-        {
-            margin: 100px;
-            background-color: black;
-            
-        }
-  </style>  
-  <link rel="shortcut icon" type="image/png" href="../optimized/bent-creek-logo-coral.png" sizes="16x16 32x32">
-  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
-  <link href="../styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>Bent Creek Ceramics - Newsletter</title>
+    <link rel="shortcut icon" type="image/png" href="../optimized/bent-creek-logo-coral.png" sizes="16x16 32x32">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet">
 </head>
 <body>
-<header>  
-  <nav class="cls_nav_row">
-      <div class="cls_logo"></div>
-         <section class="cls_nav_item">
-                <ul class="cls_link">
-                    <li>
-                        <a href="../index.html">Home</a>
-                    </li>    
-                    <li>
-                        <a href="../about/index.html">About</a>
-                    </li> 
-                    <li>
-                        <a href="#">Newsletter</a> 
-                    </li>    
-                </ul>  
-         </section>                
-        </div>    
-   </nav>
-  </header>
-  <main> 
+<header>
+<nav class="cls_nav_row">
+    <div class="cls_logo"></div>
+    <section class="cls_nav_item">
+        <ul class="cls_link">
+        <li><a href="../index.html">Home</a> </li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="#">Newsletter</a></li>
+        </ul>
+    </section>
+    </div>
+</nav>
+</header>
+<main>
     <div class="cls_news_bgimg"></div>
     <div class="cls_signup">
         <div class="cls_signup_1">
             <p class="cls_news_h1">Sign Up for Our Weekly Newsletter</p>
             <p class="cls_news_h2">Stay up to date with events, activities, news and specials.</p>
-        </div>  
-
-        <div class="cls_signup_2"> 
+        </div>
+        <div class="cls_signup_2">
             <form>
-                <p>
-                    <label class="cls_news_input" >Name </label> 
-                    <input type="text" id="nameInput" size="75">
-                </p>
-                <p>
-                    <label class="cls_news_input" >Email </label>
-                    <input type="email" id="emailInput" size="75">
-                </p>
-                <div class="cls_signupButton">
-                    <input type="submit" id="signupButton" value="Submit">
-                </div>
-            </form>    
-        </div>    
+                <p><label class="cls_news_input" >Name </label><input type="text" id="nameInput" size="75"></p>
+                <p><label class="cls_news_input" >Email </label><input type="email" id="emailInput" size="75"></p>
+                <div class="cls_signupButton"><input type="submit" id="signupButton" value="Submit"></div>
+            </form>
+        </div>
     </div>
- </main>
-  <script type="text/javascript">
-        var nameInput = document.getElementById('nameInput');
-        var emailInput = document.getElementById('emailInput');
-        var signupButton = document.getElementById('signupButton');
-        signupButton.addEventListener('click', function(e) {
-            var nameVal = nameInput.value;
-            var emailVal = emailInput.value;
-            
-            if (nameVal && emailVal) {
-            alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
-            nameInput.value = "";
-            emailInput.value = "";
-            } else {
-            alert('We would love for you to sign up, please provide both your name and email address.');
-            }
-        });
+</main>
+<script type="text/javascript">
+    var nameInput = document.getElementById('nameInput');
+    var emailInput = document.getElementById('emailInput');
+    var signupButton = document.getElementById('signupButton');
+    signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+    alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+    nameInput.value = "";
+    emailInput.value = "";
+    } else {
+    alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+    });
 </script>
 </body>
-</html>  
+</html>
